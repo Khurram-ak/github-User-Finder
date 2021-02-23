@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(assests/images/bgImg.jpg);
+    background-size: cover;
+
+}
+h2{
+    color: azure;
+    text-align:center ;
+    font-size: 25px;
+    font-family: 'RocknRoll One';
+
+
+}
+h4,p {
+    text-align:center ;
+    color: azure;
+    font-size: 18px;
+    font-family: 'RocknRoll One';
+
+}
+h3{
+    font-family: 'RocknRoll One';
+
+    font-size: 40px;
+    color: rgb(48, 58, 41);
+}
+h5{
+    font-family: 'RocknRoll One';
+
+    color: rgb(60, 73, 50);
+    font-size: 18px;
+
+}
+::placeholder{
+    font-family: 'RocknRoll One';
+    font-size: 13px;
+    color: rgb(77, 73, 73);
+}
+input{
+    background-color: rgba(0, 0, 0,0.1);
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-bottom:2px solid rgb(60, 73, 50);
+    border-radius: 5px;
+    height: 40px;
+    width: 220px;
+    color: rgb(60, 73, 50);
+    padding: 5px;
+    font-weight: 800;
+}
+.image{
+    height: 120px;
+    width: 170px;
+    border-radius: 50%;
+}
+button{
+    height: 40px;
+    width: 110px;
+    border:2px solid rgb(37, 46, 31);
+    text-decoration: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(105, 128, 89,0.1);
+    font-family: 'RocknRoll One';
+    color: rgb(37, 46, 31);
+}
+button:hover{
+    /* border: 5px solid rgb(34, 41, 29);; */
+    background-color: rgb(60, 73, 50);
+    color: white;
+}
